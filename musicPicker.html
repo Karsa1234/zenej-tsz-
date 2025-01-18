@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css"/>
+    <title>Zenelejátszó</title>
+</head>
+<body>
+    
+<div class="topnav">
+    <a class="active" href="musicPicker.html">Zene választó</a>
+    <a href="updates.html">frissítések</a>
+    <a href="https://alphacademy.hu/">alphacademy</a>
+    <a href="credits.html">készítők</a>
+</div>
+  
+    <div id="picker">
+        <h1>Zenelejátszó</h1>
+        <h2>Leírás: ha szeretnél zenét hallgatni, akkor keres rá a zene 
+            címére az alábbi keresőben!</h2>
+        <form id="forms">
+            <input type="text" name="music title" id="pickedSong">            
+            <input type="submit">
+        </form>
+        <div id="music"></div>
+    </div>
+    <section>
+        <div id="zenék">
+            <div id="bor">
+                <h1 id="title">Mesélek a Bornak</h1>
+                <audio src="zenék/boros.mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="palinka">
+                <h1 id="title">Pálinka Dal</h1>
+                <audio src="zenék/Pálinka dal.mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="grund">
+                <h1 id="title">Mi vagyunk a Grund</h1>
+                <audio src="zenék/A Pál utcai fiúk - Mi vagyunk a Grund - hivatalos videoklip.mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="belehalok">
+                <h1 id="title">Belehalok</h1>
+                <audio src="zenék/MAJKA CURTIS BLR - BELEHALOK (OFFICIAL).mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="afrika">
+                <h1 id="title">Afrika</h1>
+                <audio src="zenék/KFT - Afrika.mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="requiem">
+                <h1 id="title">Requiem</h1>
+                <audio src="zenék/Karthago - Requiem.mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="ut">
+                <h1 id="title"></h1>
+                <audio src="zenék/Republic - A 67-es Út.mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="kezenfogsz">
+                <h1 id="title"></h1>
+                <audio src="zenék/Csik Zenekar - Te majd kezenfogsz es hazavezetsz [OFFICIAL].mp3" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="">
+                <h1 id="title"></h1>
+                <audio src="zenék/" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+            <div id="">
+                <h1 id="title"></h1>
+                <audio src="zenék/" controls id="musictitle" autoplay="true"></audio>
+                <button id="Vissza" onclick="back()">Vissza</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
